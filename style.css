@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+nav{
+	height:75px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+
+	z-index: 10;
+
+}
+
+.logo{
+
+	height: 100%;
+	width: 75px;
+}
+
+.logo img{
+	height: 100%;
+	width:100%;
+	object-fit: contain;
+}
+
+.menu{
+	width: 600px;
+	height:100%;
+}
+
+
+.menu ul {
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.menu ul li a{
+
+
+	color: #959c96;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: all 0.2s;
+  
+}
+
+.menu ul li a:hover{
+	
+	color: #fff;
+	background-color: #059696;
+	border-radius: 10px;
+}
+
+.chat{
+	width: 100px;
+	height: 100%;
+	
+	
+}
+
+.chat p{
+    width: 45px;
+	height: 20px;
+	font-size: 0.8rem;
+	color: #20a142;
+	margin-top: 25px;
+	text-align: center;
+	
+	border-bottom: 2px solid #20a142;
+	cursor: pointer;
+}
+
+.two{
+	width: 100%;
+	height: 600px;
+	/* background-color: darkblue; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+	
+}
+.photo{
+	width: 500px;
+	height: 500px;
+	
+
+
+}
+.two .photo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.text{
+	width: 40%;
+	height: 250px;
+	
+
+
+}
+
+.two .text h1{
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+
+}
+
+.two .text p{
+    color: #959c96;
+	margin: 10px 0 25px 0;
+
+}
+
+.two .text a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #059696;
+	border-radius: 30px;
+	transition: all 0.2px;
+}
+
+
+.two .text a:hover{
+	background-color: #05969680;
+}
+
+#skills{
+	width: 100%;
+	height: 500px;
+	/*background-color: yellow;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#skills .skillcontent{
+	width: 350px;
+	height: 450px;
+	/*background-color: pink;*/
+}
+
+#skills .skillcontent span{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #04c998;
+}
+
+#skills .skillcontent h1{
+	font-size: 3rem;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+
+}
+
+#skills .skillcontent .skillcontainer{
+	width: 100%;
+	height: 100px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#skills .skillcontent .skillcontainer .icons{
+	width: 50px;
+	height: 50px;
+	/*background-color: green;*/
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-right:20px;
+	
+}
+
+#skills .skillcontent .skillcontainer i{
+	margin: 0 30px;
+
+}
+
+
+
+.fa-html5{
+	color: red;
+	font-size: 1.2rem;
+}
+
+.fa-css3-alt{
+	color: blue;
+	font-size: 1.2rem;
+}
+
+.fa-js{
+	color: orangered;
+	font-size: 1.2rem;
+}
+
+.skillcontent .skillcontainer h3{
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+.skillcontent .skillcontainer p{
+	font-size: 0.9rem;
+}
+
+
+
+#skills .skillimg{
+	width: 600px;
+	height: 350px;
+	/*background-color: steelblue;*/
+}
+
+#skills .skillimg img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+#recent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#recent .recenthead h3{
+	color: #04c998;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+#recent .recenthead h1{
+	font-size: 3rem ;
+	letter-spacing: 2px ;
+}
+
+
+#recent a{
+	color: #fff;
+	text-decoration: none;
+	padding: 7px 40px;
+	background-color: #059696;
+	border-radius: 20px;
+	transition: all 0.2px;
+
+	margin-bottom: 50px;
+}
+
+
+#recent a:hover{
+	background-color: #05969680;
+}
+
+
+#client{
+	width: 100%;
+	height: 600px;
+	/*background-color: red;*/
+
+
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+#client h3{
+	color: #04c998;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+#client h1{
+	font-size: 3rem ;
+	letter-spacing: 2px ;
+}
+
+
+
+#client .clientcontainer{
+	width:80%;
+	height: 400px;
+	/*background-color: #fff;*/
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+
+#client .clientcontainer .clientbox{
+	width: 300px;
+	height: 350px;
+	/*background-color: steelblue;*/
+
+	box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.2);
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+
+	transition: all 0.2s;
+}
+
+#client .clientcontainer .clientbox:hover{
+	background-color: #05969680;
+	transform: translateY(-10px);
+}
+
+
+#client .clientcontainer .clientbox img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.clientcontainer .clientbox div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clientcontainer .clientbox div i{
+	color: gold;
+}
+
+
+.clientcontainer .clientbox p{
+	width: 235px;
+	height: 85px;
+	/*background-color: red;*/
+
+	font-size: 0.9rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+.clientcontainer .clientbox a{
+
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 15px;
+	background-color: #059696;
+	
+
+}
+
+#contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	margin-top: -100px;
+}
+
+
+#contact img{
+	width: 350px;
+	height: 450px;
+	/* background-color: aqua; */
+
+	padding-top: 150px;
+	
+}
+
+#contact h1{
+	text-transform: capitalize;
+	font-size: 2.5rem;
+	font-weight: normal;
+
+	margin: 20px 0;
+
+}
+
+#contact .inputbox {
+	width: 350px;
+	height: 50px;
+	/* background-color: yellow; */
+	border-radius: 30px;
+
+	box-shadow: 0 0 5px 4px rgba(0,0,0,0.2);
+
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#contact .inputbox input{
+	border: none;
+	text-align: center;
+	outline: none;
+	
+}
+
+#contact .inputbox a{
+	color: #fff;
+	padding: 5px 20px;
+	background-color: #059696 ;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	margin-top:30px;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
